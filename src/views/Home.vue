@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <button @click="btnclick">点击</button>
+    <button @click="btnclick">点击1</button>
     {{frvalue}}
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App"  @refsh='changefr' ref="childref"/>
